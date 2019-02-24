@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        Add Fragment to Activity
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().add(R.id.contentMainFragment, new MainFragment()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.contentMainFragment, new            MainFragment()).commit();
         }
 
 
