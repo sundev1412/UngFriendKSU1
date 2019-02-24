@@ -17,7 +17,8 @@ import android.view.ViewGroup;
  * A simple {@link Fragment} subclass.
  */
 public class RegisterFragment extends Fragment {
-
+//  Explicit
+  private boolean aBoolean = true;
 
     public RegisterFragment() {
         // Required empty public constructor
@@ -50,7 +51,10 @@ public class RegisterFragment extends Fragment {
     }
 
     private void checkvalue() {
+        if (aBoolean) {
+//            Non Choose Image
 
+        }
     }
 
     private void createToolbar() {
